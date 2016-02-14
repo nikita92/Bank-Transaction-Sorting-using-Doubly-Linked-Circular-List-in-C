@@ -1,0 +1,44 @@
+Documentation for Warmup Assignment 1
+=====================================
+
++-------+
+| BUILD |
++-------+
+
+Comments: my402list.c and warmup1.c build and run successfully. No error encountered while running the grading guidelines.
+
++---------+
+| GRADING |
++---------+
+
+(A) Doubly-linked Circular List : 40 out of 40 pts
+
+(B.1) Sort (file) : 30 out of 30 pts
+(B.2) Sort (stdin) : 30 out of 30 pts
+
+Missing required section(s) in README file : (None)
+Cannot compile : (Compliation successful)
+Compiler warnings : (None, used -Wall flag in the Makefile submitted by me for warmup1 executable)
+"make clean" : (executed successfully and all the object and executable files are removed)
+Segmentation faults : (None encountered while running all the grading guidelines)
+Separate compilation : (Generated two seperate files my402list.c and warmup1.c, their object files are linked via Makefile submitted by me. Not much user generated .h files are used)
+Malformed input : (Print a reasonalbe error message and quit whenever encounter with format malformed in the passed argument)
+Too slow : (Does not run slow)
+Bad commandline : (Error are printed for each of the bad command lines)
+Bad behavior for random input : (Successfully tackled all, program does not crash but exists after displaying an error)
+Did not use My402List and My402ListElem to implement "sort" in (B) : (Used My402List and My402ListElem)
+
++------+
+| BUGS |
++------+
+
+Comments: No bugs encountered while running both positive and negative test cases.
+
++-------+
+| OTHER |
++-------+
+
+Comments on design decisions: Divided the code in functions and modules. Tried not to use many inbuilt functions and checked the return value of the functions when used.
+Comments on deviation from spec: Followed all the mentioned specifications in the problem statement
+
+
